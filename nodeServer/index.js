@@ -1,5 +1,5 @@
 // Node Server which will handle socket io connections
-const io = require('socket.io')(process.env.port || 3000)
+const io = require('socket.io')(3000)
 
 //socket.io server is running which is an instance of http and attaches itself to it 
 // this server listen incoming events
